@@ -7,8 +7,12 @@ import {
   GitBranch,
   Globe,
   Cloud,
+  Rainbow,
+  
+  
 } from "lucide-react";
 import CourseCard from "./CourseCard";
+import { webcrypto } from "crypto";
 
 const courses = [
   {
@@ -59,6 +63,13 @@ const courses = [
       "Deploy and host your projects with Cloudflare, optimize performance, and secure your web applications.",
     icon: Cloud,
     colorIndex: 7,
+  },
+  {
+    title: "Web designing Foundation",
+    description:
+      "Build, design, and launch your websites with a strong foundation—learn essential web design skills that ensure performance, responsiveness, and reliability.",
+    icon: Rainbow,
+    colorIndex: 2,
   },
 ];
 

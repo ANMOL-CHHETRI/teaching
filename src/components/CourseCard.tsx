@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import { LucideIcon } from "lucide-react";
 
 interface CourseCardProps {
@@ -17,6 +17,8 @@ const colorClasses: Record<number, string> = {
   5: "bg-course-5",
   6: "bg-course-6",
   7: "bg-course-7",
+  8: "bg-course-3",
+
 };
 
 const CourseCard = ({ title, description, icon: Icon, colorIndex, index }: CourseCardProps) => {
